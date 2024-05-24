@@ -34,22 +34,22 @@ START = f"""
 ─────────────────
 
 ➻ ben gelişmiş botum ve yapabilirim
-★ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀɪᴇs ᴇᴀsʟɪʏ
+★ Sorularınıza kolayca cevap verin
 
-✮ Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
+✮ Daha fazla bilgi için yardım bölümünü okuyun
 
-★ ᴘʀᴏᴍᴏᴛᴇ ʙʏ : [ʙʀᴀɴᴅᴇᴅ ꜱᴜᴘᴘᴏʀᴛ](https://t.me/BRANDED_WORLD)
-๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
+★ tarafından teşvik etmek : [kumsal destek](https://t.me/masaldestek)
+๏ Yardım almak için kullanın /help
 """
 xa = bytearray.fromhex("68747470733a2f2f6769746875622e636f6d2f444158585445414d2f4441585843484154475054").decode()
 SOURCE = xa
 SOURCE_TEXT = f"""
-๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]
-➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
-☆ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
+๏ hey ben [{BOT_NAME}]
+➻ açık bir yapay zeka sohbet noktası
+☆ Sorunuzu kolayca cevaplayabilirim
 
 ──────────────────
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ
+Kaynak kodunu almak için aşağıdaki düğmeye tıklayın
 """
 
 
@@ -57,53 +57,53 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="☆ ᴜᴘᴅᴀᴛᴇ ☆" , url=f"https://t.me/BRANDRD_BOT"),
-        InlineKeyboardButton(text="☆ ꜱᴜᴘᴘᴏʀᴛ ☆", url=f"https://t.me/BRANDED_WORLD"),
+        InlineKeyboardButton(text="☆ SAHİBİ ☆" , url=f"https://t.me/RAGNARbeyy"),
+        InlineKeyboardButton(text="☆ YAZILIMCI ☆", url=f"https://t.me/Expfedai"),
     ],
     [
         InlineKeyboardButton(
-            text="【+】 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 【+】",
+            text="【+】 beni grubuna ekle【+】",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="♥ ʜᴇʟᴘ & ᴄᴍᴅs ♥", callback_data="HELP"),
+        InlineKeyboardButton(text="♥ yardım & komutlar ♥", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="☆ ʜᴇʀᴏᴋᴜ ☆", url=f"https://t.me/BRANDED_PAID_CC"),
-        InlineKeyboardButton(text="☆ ᴏᴡɴᴇʀ ☆", url=f"https://t.me/BRANDEDKING82"),
+        InlineKeyboardButton(text="☆ destek gurubu ☆", url=f"https://t.me/masaldestek"),
+        InlineKeyboardButton(text="☆ destek kanalı  ☆", url=f"https://t.me/masaldestekkanal"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text="☆ ᴏᴡɴᴇʀ ☆", url=f"https://t.me/BRANDEDKING82"),
+        InlineKeyboardButton(text="☆ etiket botu ☆", url=f"https://t.me/Kumsaletiketbot"),
               
-        InlineKeyboardButton(text="☆ ꜱᴜᴘᴘᴏʀᴛ ☆", url=f"https://t.me/BRANDED_WORLD"),
+        InlineKeyboardButton(text="☆ müzik botu☆", url=f"https://t.me/kumsalmuzikbot"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="【+】ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 【+】",
+             text="【+】 beni grubuna ekle 【+】",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="☆ ꜱᴜᴘᴘᴏʀᴛ ☆", 
-                              url=f"https://t.me/BRANDED_WORLD",
+         InlineKeyboardButton(text="☆ yönetim botu ☆", 
+                              url=f"https://t.me/uyuyanprensesinki_bot",
          ),
      ],
 ]
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇᴘᴏ' , url=f"https://telegra.ph//file/5374701ae0678848e9631.mp4")]])
-HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt Space then write your question.`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ ᴏᴡɴᴇʀ : [ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ](https://t.me/BRANDEDKING82) **"
+SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇᴘᴏ' , url=f"https://graph.org/file/9499c79f5f0516009b8d8.jpg")]])
+HELP_READ = "**➻ Kullanım** /chatgpt <prompt>\n\n yardım: `/chatgpt boşluk bırakın ve ardından sorunuzu yazın.`\n\n**kullanım** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate bir kitap fotoğrafı`  \n\n➻ kullanım /lyrics : Şarkı sözlerini tespit etmek için ses dosyasına yanıt verin**➻ kullanım /ping botun pingini kontrol etmek için.**\n\n©️ SAHİBİ : [RANGAR BEY](https://t.me/RAGNARbeyy) **"
 HELP_BACK = [
      [
-           InlineKeyboardButton(text="★ Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ★", url=f"https://t.me/BRANDED_WORLD"),
+           InlineKeyboardButton(text="★ Chatgpt'nin çözebileceği soru ★", url=f"https://t.me/masaldestek"),
            
      ],
     [
-           InlineKeyboardButton(text="★ ʙᴀᴄᴋ ★", callback_data="HELP_BACK"),
+           InlineKeyboardButton(text="★ geri★", callback_data="HELP_BACK"),
     ],
 ]
 
@@ -115,7 +115,7 @@ async def start(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(0.2)
-        await accha.edit("sᴛᴀʀᴛɪɴɢ ᴄʜᴀᴛ ɢᴘᴛ ʙᴏᴛ 💘🌹..")
+        await accha.edit("chatgpt botu başlatılıyor  💘🌹..")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(
